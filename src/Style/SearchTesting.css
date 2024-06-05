@@ -1,0 +1,33 @@
+.dataresult{
+    margin-top: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+    border-radius: 10px;
+  }
+  
+  .dataresult::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .dataiteam{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-left: 10px;
+  }
+  
+  .dataiteam p {
+    margin-left: 10px;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  
